@@ -2,7 +2,10 @@
 
 # Backend em Dart (Construindo micro-serviço de login)
 
-Nesse video vou mostrar todo o poder do dart para o backend com shelf. Vamos construir um serviço de login com acesso a banco de dados MySql.
+Nesse vídeo vou mostrar todo o poder do dart para o backend com o package shelf. Vamos construir um serviço de login com acesso a banco de dados MySql e retornando um token JWT.
+
+# Passo a passo
+Rode o script abaixo no seu banco de dados e altere o arquivo database_connection.dart dentro da pasta /lib/application/database/ colocando seus dados de conexão
 
 ## Script de banco
 ```sql
